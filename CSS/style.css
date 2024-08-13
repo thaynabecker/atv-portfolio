@@ -1,0 +1,105 @@
+/*  =======
+    css reset
+    =======*/
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+/*  ===============
+    formatação geral
+    ===============*/
+    html {
+        font-size: calc(10px + 1vw);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:#21243D;
+    }
+
+    html body a{
+        text-decoration: none;
+        color:#21243D;
+    }
+
+/*  ===============
+    formatação do topo da página
+    ===============*/
+
+    header {
+        margin: 0 5vw 3vw 5vw;
+    }
+    header nav ul{
+        display:flex;
+        justify-content:right;
+    }
+
+    header nav ul li{
+        margin: 1vw 10px 0 10px;
+    }
+
+    header nav ul li.atual a{
+        color: #ff6464;
+    }
+
+/*  ===============
+    formatação de conteúdo
+    ===============*/
+
+    main.works {
+        margin: 0 30vw 0 30vw;
+    }
+
+    main.works h1{
+        font-weight: normal; /*negrito da fonte*/
+        margin: 0 0 0 0; /*espaçamento do título*/
+    }
+
+    main.works section {
+        border-bottom: 1px solid #e0e0e0; /*borda das sections (bottom: apenas em baixo)*/
+        padding: 3vw 0 3vw 0; /*espaçamento da section*/
+    }
+
+    main.works section:last-child {
+        border: none; /*remover a última borda*/
+    }
+
+    main.works section p {
+        margin: 2vw 0 2vw 0; /*espaçamento da borda*/
+    }
+
+    main.works section p span {
+        color: white; /*cor da letra*/
+        background-color: #ff6464; /*cor do fundo*/
+        border-radius: 35px; /*borda redonda*/
+        padding: 2px 5px 2px 5px; /*espaçamento da borda*/
+        font-weight: bold; /*negrito*/
+    }
+
+/*  ===============
+    formatação de conteúdo
+    ===============*/
+
+    footer {
+        text-align: center; /*centraliza o rodapé*/
+        padding: 0 0 2vw 0;
+    }
+
+    footer nav ul {
+        display: flex; /*coloca os elementos um a lado do outro*/
+        justify-content: center; /*centraliza os elementos*/
+    }
+
+    footer nav ul li {
+        margin: 0 5px 5px 5px;
+        font-size: 2rem;
+    }
+
+    footer nav ul li a span {
+        color: #ff6464; 
+        padding: 10px ;
+    }
+
+    
